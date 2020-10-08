@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d57832d-28a2-4680-85df-8d3c62e93c59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/el-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-generator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-logging/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-tools/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
