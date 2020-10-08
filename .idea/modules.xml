@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/el-common/el-common.iml" filepath="$PROJECT_DIR$/el-common/el-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/el-generator/el-generator.iml" filepath="$PROJECT_DIR$/el-generator/el-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/el-logging/el-logging.iml" filepath="$PROJECT_DIR$/el-logging/el-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/el-system/el-system.iml" filepath="$PROJECT_DIR$/el-system/el-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/el-tools/el-tools.iml" filepath="$PROJECT_DIR$/el-tools/el-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/eladminpro.iml" filepath="$PROJECT_DIR$/.idea/eladminpro.iml" />
+    </modules>
+  </component>
+</project>

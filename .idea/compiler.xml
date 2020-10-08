@@ -8,11 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="el-common" />
         <module name="el-system" />
-        <module name="el-tools" />
         <module name="el-generator" />
+        <module name="el-tools" />
         <module name="el-logging" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="el-common" target="1.8" />
+      <module name="el-generator" target="1.8" />
+      <module name="el-logging" target="1.8" />
+      <module name="el-system" target="1.8" />
+      <module name="el-tools" target="1.8" />
+      <module name="eladminpro" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
