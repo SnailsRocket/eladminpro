@@ -1266,7 +1266,10 @@
       <change afterPath="$PROJECT_DIR$/../../changgou/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../changgounote/changgou" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../easyexcel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/AppRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/resources/config/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin-web" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mall" afterDir="false" />
@@ -1275,6 +1278,7 @@
       <change afterPath="$PROJECT_DIR$/../../newbee-mall" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sculptor-boot-generator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/AppRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/AppRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1310,11 +1314,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/el-system/src/main/resources/config" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitproject\J\el\eladminpro\el-system\src\main\resources\config" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1350,10 +1359,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602121090407" />
-    <state x="153" y="0" key="SettingsEditor" timestamp="1602121353663">
+    <state x="246" y="84" key="IDE.errors.dialog" timestamp="1602146455820">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="153" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602121353663" />
+    <state x="246" y="84" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1602146455820" />
+    <state x="193" y="0" key="SettingsEditor" timestamp="1602146987471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="193" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602146987471" />
     <state x="225" y="68" width="1311" height="689" key="new project wizard" timestamp="1602121648279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
