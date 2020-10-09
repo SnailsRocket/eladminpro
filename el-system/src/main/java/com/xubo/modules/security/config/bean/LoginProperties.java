@@ -32,7 +32,7 @@ import lombok.Data;
 /**
  * 配置文件读取
  * bean
- * @author liaojinlong
+ * @author Druid
  * @date loginCode.length0loginCode.length0/6/10 17:loginCode.length6
  *
  */

@@ -46,14 +46,14 @@ public class AuthorizationController {
 
         String uuid = securityProperties.getCodeKey() + IdUtil.simpleUUID();
 
+//        获取 Captcha 里面的内容
         String captchaValue = captcha.text();
-
 
 
 
 //
 
-        return ResponseEntity.ok("");
+        return ResponseEntity.ok("生成验证码");
     }
 
 }
