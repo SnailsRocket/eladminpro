@@ -1266,40 +1266,9 @@
       <change afterPath="$PROJECT_DIR$/../../changgou/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../changgounote/changgou" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../easyexcel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/base/BaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/base/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/EncryptUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/PageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/enums/DataScopeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/enums/RequestMethodEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/security/JwtAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/security/TokenConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/security/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/security/TokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/service/OnlineUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/service/UserCacheClean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/service/dto/JwtUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/service/dto/OnlineUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/domain/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/domain/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/domain/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/DataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/DeptDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/DeptSmallDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/JobSmallDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/MenuDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/RoleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/RoleSmallDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/UserQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/DataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/UserServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin-web" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mall" afterDir="false" />
@@ -1307,9 +1276,8 @@
       <change afterPath="$PROJECT_DIR$/../../nacos-examples" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../newbee-mall" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sculptor-boot-generator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/config/ConfigurerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/config/ConfigurerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/src/main/resources/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-system/target/classes/com/xubo/config/ConfigurerAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/classes/com/xubo/config/ConfigurerAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-system/target/classes/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1347,7 +1315,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -1362,6 +1330,7 @@
       <recent name="com.xubo.modules.security.security" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitproject\J\el\eladminpro\el-system\src\main\java\com\xubo\modules\system\service\impl" />
       <recent name="D:\gitproject\J\el\eladminpro\el-system\src\main\java\com\xubo\modules\system\service" />
       <recent name="D:\gitproject\J\el\eladminpro\el-system\src\main\java\com\xubo\modules\system\service\dto" />
       <recent name="D:\gitproject\J\el\eladminpro\el-common\src\main\java\com\xubo\annotation" />
@@ -1421,22 +1390,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602121090407" />
-    <state width="1483" height="460" key="GridCell.Tab.0.bottom" timestamp="1602229008473">
+    <state width="1483" height="464" key="GridCell.Tab.0.bottom" timestamp="1602233378056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="460" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602229008473" />
-    <state width="1483" height="460" key="GridCell.Tab.0.center" timestamp="1602229008473">
+    <state width="1483" height="464" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602233378056" />
+    <state width="1483" height="464" key="GridCell.Tab.0.center" timestamp="1602233378056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="460" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602229008473" />
-    <state width="1483" height="460" key="GridCell.Tab.0.left" timestamp="1602229008473">
+    <state width="1483" height="464" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602233378056" />
+    <state width="1483" height="464" key="GridCell.Tab.0.left" timestamp="1602233378056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="460" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602229008473" />
-    <state width="1483" height="460" key="GridCell.Tab.0.right" timestamp="1602229008473">
+    <state width="1483" height="464" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602233378056" />
+    <state width="1483" height="464" key="GridCell.Tab.0.right" timestamp="1602233378056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="460" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602229008473" />
+    <state width="1483" height="464" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602233378056" />
     <state width="1483" height="245" key="GridCell.Tab.1.bottom" timestamp="1602224952908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
