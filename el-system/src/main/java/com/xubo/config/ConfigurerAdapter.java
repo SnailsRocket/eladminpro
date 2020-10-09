@@ -17,6 +17,7 @@ import com.xubo.utils.FileUtil;
  * @Description SpringMvc 配置类
  * 跨域在这里配置
  * @EnableWebMvc 快捷配置SpringMvc
+ *
  */
 @Configuration
 @EnableWebMvc
