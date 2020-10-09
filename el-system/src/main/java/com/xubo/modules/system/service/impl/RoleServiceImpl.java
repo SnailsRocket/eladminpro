@@ -41,6 +41,8 @@ import com.xubo.exception.BadRequestException;
 import com.xubo.modules.system.domain.Menu;
 import com.xubo.modules.system.domain.Role;
 import com.xubo.modules.system.domain.User;
+import com.xubo.modules.system.repository.RoleRepository;
+import com.xubo.modules.system.repository.UserRepository;
 import com.xubo.modules.system.service.RoleService;
 import com.xubo.modules.system.service.dto.RoleDto;
 import com.xubo.modules.system.service.dto.RoleSmallDto;

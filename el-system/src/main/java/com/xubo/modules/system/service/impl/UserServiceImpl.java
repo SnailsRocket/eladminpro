@@ -38,6 +38,15 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.xubo.config.FileProperties;
+import com.xubo.modules.system.domain.User;
+import com.xubo.modules.system.repository.UserRepository;
+import com.xubo.modules.system.service.UserService;
+import com.xubo.modules.system.service.dto.UserDto;
+import com.xubo.modules.system.service.dto.UserQueryCriteria;
+import com.xubo.utils.PageUtil;
+import com.xubo.utils.RedisUtils;
+
 import lombok.RequiredArgsConstructor;
 
 /**
