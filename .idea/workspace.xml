@@ -1266,7 +1266,21 @@
       <change afterPath="$PROJECT_DIR$/../../changgou/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../changgounote/changgou" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../easyexcel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/day01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation/AnonymousAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation/DataPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation/Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation/rest/AnonymousDeleteMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation/rest/AnonymousGetMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation/rest/AnonymousPatchMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation/rest/AnonymousPostMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation/rest/AnonymousPutMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/aspect/LimitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/config/FileProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/config/ConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/ConfigBeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/resources/test.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin-web" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mall" afterDir="false" />
@@ -1275,8 +1289,9 @@
       <change afterPath="$PROJECT_DIR$/../../newbee-mall" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sculptor-boot-generator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/bean/LoginProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/bean/LoginProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/bean/LoginCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/bean/LoginCodeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1287,6 +1302,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -1309,10 +1325,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/el-system/src/main/resources/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/el-common/src/main/java/com/xubo/annotation" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -1320,11 +1337,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xubo.aspect" />
+      <recent name="com.xubo.config" />
       <recent name="com.xubo.modules.security.config.bean" />
       <recent name="com.xubo.utils" />
       <recent name="com.xubo.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitproject\J\el\eladminpro\el-common\src\main\java\com\xubo\annotation" />
       <recent name="D:\gitproject\J\el\eladminpro\el-system\src\main\resources\config" />
     </key>
   </component>
@@ -1369,6 +1389,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="527" y="59" key="#com.intellij.ide.util.MemberChooser" timestamp="1602226094701">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="59" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602226094701" />
     <state x="0" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1602121529265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1377,30 +1401,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602121090407" />
-    <state width="1483" height="298" key="GridCell.Tab.0.bottom" timestamp="1602214752849">
+    <state width="1483" height="460" key="GridCell.Tab.0.bottom" timestamp="1602226763924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="298" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602214752849" />
-    <state width="1483" height="298" key="GridCell.Tab.0.center" timestamp="1602214752849">
+    <state width="1483" height="460" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602226763924" />
+    <state width="1483" height="460" key="GridCell.Tab.0.center" timestamp="1602226763924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="298" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602214752849" />
-    <state width="1483" height="298" key="GridCell.Tab.0.left" timestamp="1602214752849">
+    <state width="1483" height="460" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602226763924" />
+    <state width="1483" height="460" key="GridCell.Tab.0.left" timestamp="1602226763924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="298" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602214752849" />
-    <state width="1483" height="298" key="GridCell.Tab.0.right" timestamp="1602214752849">
+    <state width="1483" height="460" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602226763924" />
+    <state width="1483" height="460" key="GridCell.Tab.0.right" timestamp="1602226763924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="298" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602214752849" />
-    <state x="246" y="84" key="IDE.errors.dialog" timestamp="1602210826793">
+    <state width="1483" height="460" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602226763924" />
+    <state width="1483" height="245" key="GridCell.Tab.1.bottom" timestamp="1602224952908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="246" y="84" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1602210826793" />
-    <state x="193" y="0" key="SettingsEditor" timestamp="1602147022287">
+    <state width="1483" height="245" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602224952908" />
+    <state width="1483" height="245" key="GridCell.Tab.1.center" timestamp="1602224952908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="193" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602147022287" />
+    <state width="1483" height="245" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602224952908" />
+    <state width="1483" height="245" key="GridCell.Tab.1.left" timestamp="1602224952908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="245" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602224952908" />
+    <state width="1483" height="245" key="GridCell.Tab.1.right" timestamp="1602224952908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602224952908" />
+    <state x="246" y="84" key="IDE.errors.dialog" timestamp="1602222964534">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="246" y="84" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1602222964534" />
+    <state x="193" y="0" key="SettingsEditor" timestamp="1602215576640">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="193" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602215576640" />
     <state x="225" y="68" width="1311" height="689" key="new project wizard" timestamp="1602121648279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1409,5 +1449,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602214613208" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

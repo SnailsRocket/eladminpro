@@ -18,7 +18,7 @@ package com.xubo.modules.security.config.bean;
 /**
  * 验证码配置枚举
  *
- * @author: liaojinlong
+ * @author: Druid
  * @date: 2020/6/10 17:40
  */
 

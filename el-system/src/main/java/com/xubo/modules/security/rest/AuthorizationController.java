@@ -3,11 +3,13 @@ package com.xubo.modules.security.rest;
 import javax.annotation.Resource;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.wf.captcha.base.Captcha;
+import com.xubo.annotation.rest.AnonymousGetMapping;
 import com.xubo.modules.security.config.bean.LoginProperties;
 import com.xubo.modules.security.config.bean.SecurityProperties;
 
@@ -28,6 +30,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/auth")
 @RequiredArgsConstructor
 @Api(tags = "系统：系统授权接口")
+//@CrossOrigin(origins = {"http://localhost:8013"})
 public class AuthorizationController {
     public SecurityProperties securityProperties;
 
@@ -39,8 +42,9 @@ public class AuthorizationController {
      * @return
      */
     @ApiOperation("获取验证码")
-    @GetMapping(value = "/code")
+    @AnonymousGetMapping(value = "/code")
     public ResponseEntity<Object> getCode() {
+        System.out.println("getCode");
 //      获取运算的结果
         Captcha captcha = loginProperties.getCaptcha();
 
