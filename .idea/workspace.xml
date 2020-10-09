@@ -1266,10 +1266,17 @@
       <change afterPath="$PROJECT_DIR$/../../changgou/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../changgounote/changgou" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../easyexcel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/resources/config/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/resources/config/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/exception/BadConfigurationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/CallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/ElAdminConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/SpringContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/bean/LoginCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/bean/LoginCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/bean/LoginProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/bean/SecurityProperties.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin-web" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mall" afterDir="false" />
@@ -1278,7 +1285,8 @@
       <change afterPath="$PROJECT_DIR$/../../newbee-mall" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sculptor-boot-generator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/AppRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/AppRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-common/el-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/el-common/el-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1321,6 +1329,11 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xubo.modules.security.config.bean" />
+      <recent name="com.xubo.utils" />
+      <recent name="com.xubo.exception" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\gitproject\J\el\eladminpro\el-system\src\main\resources\config" />
     </key>
@@ -1359,14 +1372,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602121090407" />
-    <state x="246" y="84" key="IDE.errors.dialog" timestamp="1602146455820">
+    <state x="246" y="84" key="IDE.errors.dialog" timestamp="1602210826793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="246" y="84" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1602146455820" />
-    <state x="193" y="0" key="SettingsEditor" timestamp="1602146987471">
+    <state x="246" y="84" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1602210826793" />
+    <state x="193" y="0" key="SettingsEditor" timestamp="1602147022287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="193" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602146987471" />
+    <state x="193" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602147022287" />
     <state x="225" y="68" width="1311" height="689" key="new project wizard" timestamp="1602121648279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
