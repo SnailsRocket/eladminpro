@@ -33,6 +33,7 @@ import org.springframework.data.redis.core.Cursor;
 import org.springframework.data.redis.core.RedisConnectionUtils;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ScanOptions;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.stereotype.Component;
 
 import com.google.common.collect.Lists;
@@ -256,6 +257,7 @@ public class RedisUtils {
     public boolean set(String key, Object value, long time) {
         try {
             if (time > 0) {
+                redisTemplate.setStringSerializer(new StringRedisSerializer());
                 redisTemplate.opsForValue().set(key, value, time, TimeUnit.SECONDS);
             } else {
                 set(key, value);

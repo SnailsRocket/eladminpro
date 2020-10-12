@@ -1266,24 +1266,7 @@
       <change afterPath="$PROJECT_DIR$/../../changgou/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../changgounote/changgou" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../easyexcel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/base/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/exception/EntityExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/exception/EntityNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/CacheKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/QueryHelp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/ValidationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/repository/DeptRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/DeptQueryCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/dto/JobDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/mapstruct/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/mapstruct/JobMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/mapstruct/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/mapstruct/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/mapstruct/RoleSmallMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/mapstruct/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin-web" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mall" afterDir="false" />
@@ -1292,10 +1275,10 @@
       <change afterPath="$PROJECT_DIR$/../../newbee-mall" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sculptor-boot-generator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-common/target/classes/com/xubo/utils/RedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/el-common/target/classes/com/xubo/utils/RedisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/ConfigBeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/config/ConfigBeanConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/DataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/DataServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/system/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1306,8 +1289,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -1371,6 +1354,9 @@
       </method>
     </configuration>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1409,50 +1395,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="433" y="99" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602467096619" />
+    <state x="202" y="109" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1602481370001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="202" y="109" key="#org.jetbrains.debugger.memory.view.InstancesWindow/0.0.1536.824@0.0.1536.824" timestamp="1602481370001" />
+    <state x="464" y="46" key="#xdebugger.evaluate" timestamp="1602479525128">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="46" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1602479525128" />
     <state x="496" y="109" key="FileChooserDialogImpl" timestamp="1602121090407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602121090407" />
-    <state width="1483" height="281" key="GridCell.Tab.0.bottom" timestamp="1602469082766">
+    <state width="1483" height="281" key="GridCell.Tab.0.bottom" timestamp="1602489017835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602469082766" />
-    <state width="1483" height="281" key="GridCell.Tab.0.center" timestamp="1602469082766">
+    <state width="1483" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602489017835" />
+    <state width="1483" height="281" key="GridCell.Tab.0.center" timestamp="1602489017835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602469082766" />
-    <state width="1483" height="281" key="GridCell.Tab.0.left" timestamp="1602469082765">
+    <state width="1483" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602489017835" />
+    <state width="1483" height="281" key="GridCell.Tab.0.left" timestamp="1602489017834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602469082765" />
-    <state width="1483" height="281" key="GridCell.Tab.0.right" timestamp="1602469082766">
+    <state width="1483" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602489017834" />
+    <state width="1483" height="281" key="GridCell.Tab.0.right" timestamp="1602489017835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602469082766" />
-    <state width="1483" height="245" key="GridCell.Tab.1.bottom" timestamp="1602469006480">
+    <state width="1483" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602489017835" />
+    <state width="1483" height="291" key="GridCell.Tab.1.bottom" timestamp="1602488924347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="245" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602469006480" />
-    <state width="1483" height="245" key="GridCell.Tab.1.center" timestamp="1602469006480">
+    <state width="1483" height="291" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602488924347" />
+    <state width="1483" height="291" key="GridCell.Tab.1.center" timestamp="1602488924347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="245" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602469006480" />
-    <state width="1483" height="245" key="GridCell.Tab.1.left" timestamp="1602469006480">
+    <state width="1483" height="291" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602488924347" />
+    <state width="1483" height="291" key="GridCell.Tab.1.left" timestamp="1602488924347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="245" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602469006480" />
-    <state width="1483" height="245" key="GridCell.Tab.1.right" timestamp="1602469006480">
+    <state width="1483" height="291" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602488924347" />
+    <state width="1483" height="291" key="GridCell.Tab.1.right" timestamp="1602488924347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602469006480" />
+    <state width="1483" height="291" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602488924347" />
     <state x="246" y="84" key="IDE.errors.dialog" timestamp="1602222964534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="246" y="84" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1602222964534" />
-    <state x="193" y="0" key="SettingsEditor" timestamp="1602215576640">
+    <state x="193" y="0" key="SettingsEditor" timestamp="1602489042733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="193" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602215576640" />
+    <state x="193" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602489042733" />
+    <state x="485" y="204" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602492944268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="204" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1602492944268" />
     <state x="225" y="68" width="1311" height="689" key="new project wizard" timestamp="1602121648279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1467,8 +1465,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java</url>
-          <line>49</line>
+          <line>54</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisUtils.java</url>
+          <line>283</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
