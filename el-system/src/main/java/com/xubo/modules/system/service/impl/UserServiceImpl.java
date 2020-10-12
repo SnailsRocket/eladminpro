@@ -39,13 +39,26 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.xubo.config.FileProperties;
+import com.xubo.exception.EntityExistException;
+import com.xubo.exception.EntityNotFoundException;
+import com.xubo.modules.security.service.OnlineUserService;
+import com.xubo.modules.security.service.UserCacheClean;
 import com.xubo.modules.system.domain.User;
 import com.xubo.modules.system.repository.UserRepository;
 import com.xubo.modules.system.service.UserService;
+import com.xubo.modules.system.service.dto.JobSmallDto;
+import com.xubo.modules.system.service.dto.RoleSmallDto;
 import com.xubo.modules.system.service.dto.UserDto;
 import com.xubo.modules.system.service.dto.UserQueryCriteria;
+import com.xubo.modules.system.service.mapstruct.UserMapper;
+import com.xubo.utils.CacheKey;
+import com.xubo.utils.FileUtil;
 import com.xubo.utils.PageUtil;
+import com.xubo.utils.QueryHelp;
 import com.xubo.utils.RedisUtils;
+import com.xubo.utils.SecurityUtils;
+import com.xubo.utils.StringUtils;
+import com.xubo.utils.ValidationUtil;
 
 import lombok.RequiredArgsConstructor;
 

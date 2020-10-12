@@ -27,6 +27,7 @@ import org.springframework.stereotype.Service;
 
 import com.xubo.modules.system.domain.Dept;
 import com.xubo.modules.system.service.DataService;
+import com.xubo.modules.system.service.DeptService;
 import com.xubo.modules.system.service.RoleService;
 import com.xubo.modules.system.service.dto.RoleSmallDto;
 import com.xubo.modules.system.service.dto.UserDto;

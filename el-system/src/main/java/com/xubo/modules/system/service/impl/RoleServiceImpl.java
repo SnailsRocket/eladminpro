@@ -38,6 +38,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.xubo.exception.BadRequestException;
+import com.xubo.exception.EntityExistException;
+import com.xubo.modules.security.service.UserCacheClean;
 import com.xubo.modules.system.domain.Menu;
 import com.xubo.modules.system.domain.Role;
 import com.xubo.modules.system.domain.User;
@@ -45,12 +47,18 @@ import com.xubo.modules.system.repository.RoleRepository;
 import com.xubo.modules.system.repository.UserRepository;
 import com.xubo.modules.system.service.RoleService;
 import com.xubo.modules.system.service.dto.RoleDto;
+import com.xubo.modules.system.service.dto.RoleQueryCriteria;
 import com.xubo.modules.system.service.dto.RoleSmallDto;
 import com.xubo.modules.system.service.dto.UserDto;
+import com.xubo.modules.system.service.mapstruct.RoleMapper;
+import com.xubo.modules.system.service.mapstruct.RoleSmallMapper;
+import com.xubo.utils.CacheKey;
 import com.xubo.utils.FileUtil;
 import com.xubo.utils.PageUtil;
+import com.xubo.utils.QueryHelp;
 import com.xubo.utils.RedisUtils;
 import com.xubo.utils.StringUtils;
+import com.xubo.utils.ValidationUtil;
 
 import cn.hutool.core.collection.CollectionUtil;
 import lombok.RequiredArgsConstructor;

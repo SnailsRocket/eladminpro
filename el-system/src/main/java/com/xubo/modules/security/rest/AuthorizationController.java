@@ -12,6 +12,7 @@ import com.wf.captcha.base.Captcha;
 import com.xubo.annotation.rest.AnonymousGetMapping;
 import com.xubo.modules.security.config.bean.LoginProperties;
 import com.xubo.modules.security.config.bean.SecurityProperties;
+import com.xubo.utils.RedisUtils;
 
 import cn.hutool.core.util.IdUtil;
 import io.swagger.annotations.Api;
@@ -32,6 +33,7 @@ import lombok.extern.slf4j.Slf4j;
 @Api(tags = "系统：系统授权接口")
 //@CrossOrigin(origins = {"http://localhost:8013"})
 public class AuthorizationController {
+    @Resource
     public SecurityProperties securityProperties;
 
     @Resource
@@ -44,7 +46,6 @@ public class AuthorizationController {
     @ApiOperation("获取验证码")
     @AnonymousGetMapping(value = "/code")
     public ResponseEntity<Object> getCode() {
-        System.out.println("getCode");
 //      获取运算的结果
         Captcha captcha = loginProperties.getCaptcha();
 
@@ -53,11 +54,13 @@ public class AuthorizationController {
 //        获取 Captcha 里面的内容
         String captchaValue = captcha.text();
 
+        RedisUtils
+
 
 
 //
 
-        return ResponseEntity.ok("生成验证码");
+        return ResponseEntity.ok(captchaValue);
     }
 
 }
