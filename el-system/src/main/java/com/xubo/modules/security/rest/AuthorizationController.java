@@ -5,18 +5,23 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.wf.captcha.base.Captcha;
+import com.xubo.annotation.Log;
 import com.xubo.annotation.rest.AnonymousGetMapping;
+import com.xubo.annotation.rest.AnonymousPostMapping;
 import com.xubo.modules.security.config.bean.LoginCodeEnum;
 import com.xubo.modules.security.config.bean.LoginProperties;
 import com.xubo.modules.security.config.bean.SecurityProperties;
+import com.xubo.modules.security.service.dto.AuthUserDto;
 import com.xubo.utils.RedisUtils;
 
 import cn.hutool.core.util.IdUtil;
@@ -72,6 +77,21 @@ public class AuthorizationController {
         };
 //        返回参数类型在ResponseEntity 里面定义的是泛型T，
         return ResponseEntity.ok(imgResult);
+    }
+
+    /**
+     * @Log 是 el-logging 模块里面自定义的注解
+     * 194
+     * @param
+     * @return
+     */
+    @Log("用户登录")
+    @ApiOperation("登录授权")
+    @AnonymousPostMapping(value = "/login")
+    public ResponseEntity<Object> login(@Validated@RequestBody AuthUserDto authUserDto, HttpServletRequest request) throws Exception {
+
+
+        return ResponseEntity.ok("");
     }
 
 }

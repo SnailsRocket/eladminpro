@@ -1272,6 +1272,9 @@
       <change afterPath="$PROJECT_DIR$/../../changgou/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../changgounote/changgou" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../easyexcel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-logging/src/main/java/com/xubo/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-logging/src/main/java/com/xubo/annotation/type/LogActionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/service/dto/AuthUserDto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin-web" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mall" afterDir="false" />
@@ -1280,10 +1283,8 @@
       <change afterPath="$PROJECT_DIR$/../../newbee-mall" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sculptor-boot-generator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-logging/el-logging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/el-logging/el-logging.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1329,11 +1330,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xubo.annotation.type" />
+      <recent name="com.xubo.annotation" />
       <recent name="com.xubo.modules.system.repository" />
       <recent name="com.xubo.modules.system.service.impl" />
       <recent name="com.xubo.utils" />
-      <recent name="com.xubo.exception" />
-      <recent name="com.xubo.modules.system.domain.vo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\gitproject\J\el\eladminpro\el-system\src\main\java\com\xubo\modules\system\service\mapstruct" />
@@ -1387,10 +1388,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="59" key="#com.intellij.ide.util.MemberChooser" timestamp="1602555696077">
+    <state x="527" y="59" key="#com.intellij.ide.util.MemberChooser" timestamp="1602572421361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="527" y="59" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602555696077" />
+    <state x="527" y="59" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602572421361" />
     <state x="0" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1602121529265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1477,7 +1478,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java</url>
-          <line>54</line>
+          <line>59</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
