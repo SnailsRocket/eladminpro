@@ -60,9 +60,8 @@ public class AuthorizationController {
         if (captcha.getCharType() - 1 == LoginCodeEnum.arithmetic.ordinal() && captchaValue.contains(".")) {
             captchaValue = captchaValue.split("\\.")[0];
         }
-//      验证码的信息保存到redis里面 以String类型存储 第一个是key value timetype time
+//      验证码的信息保存到redis里面 以String类型存储 第一个是key value timetype time  把 key(String) value(instanceof String) 序列化成byte[] 存入 redis
         redisUtils.set(uuid, captchaValue, loginProperties.getLoginCode().getExpiration(), TimeUnit.MINUTES);
-        redisUtils.set("Druid","RedisTest",240);
 
 //        封装到map里面的是 captcha 这个 对象而不是返回计算后的结果
         Map<String, Object> imgResult = new HashMap<String, Object>(2) {
