@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.constraints.NotBlank;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -81,14 +82,21 @@ public class AuthorizationController {
 
     /**
      * @Log 是 el-logging 模块里面自定义的注解
-     * 194
      * @param
      * @return
+     * 194
+     * 12  5
+     *
+     * @Validated 是校验 入参 是否满足条件 ，还要在 AuthUserDto 这个Bean里面设置校验规则(NotBlank)
+     *
      */
     @Log("用户登录")
     @ApiOperation("登录授权")
     @AnonymousPostMapping(value = "/login")
     public ResponseEntity<Object> login(@Validated@RequestBody AuthUserDto authUserDto, HttpServletRequest request) throws Exception {
+
+//        这个摩玛需要解码，在前端页面加密过
+        String password = authUserDto.getPassword();
 
 
         return ResponseEntity.ok("");

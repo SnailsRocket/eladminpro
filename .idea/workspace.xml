@@ -1272,9 +1272,6 @@
       <change afterPath="$PROJECT_DIR$/../../changgou/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../changgounote/changgou" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../easyexcel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-logging/src/main/java/com/xubo/annotation/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-logging/src/main/java/com/xubo/annotation/type/LogActionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/service/dto/AuthUserDto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin-web" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mall" afterDir="false" />
@@ -1283,7 +1280,7 @@
       <change afterPath="$PROJECT_DIR$/../../newbee-mall" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sculptor-boot-generator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-logging/el-logging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/el-logging/el-logging.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1412,22 +1409,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602121090407" />
-    <state width="1483" height="281" key="GridCell.Tab.0.bottom" timestamp="1602568456179">
+    <state width="1483" height="281" key="GridCell.Tab.0.bottom" timestamp="1602579561101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602568456179" />
-    <state width="1483" height="281" key="GridCell.Tab.0.center" timestamp="1602568456179">
+    <state width="1483" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602579561101" />
+    <state width="1483" height="281" key="GridCell.Tab.0.center" timestamp="1602579561100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602568456179" />
-    <state width="1483" height="281" key="GridCell.Tab.0.left" timestamp="1602568456179">
+    <state width="1483" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602579561100" />
+    <state width="1483" height="281" key="GridCell.Tab.0.left" timestamp="1602579561100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602568456179" />
-    <state width="1483" height="281" key="GridCell.Tab.0.right" timestamp="1602568456179">
+    <state width="1483" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602579561100" />
+    <state width="1483" height="281" key="GridCell.Tab.0.right" timestamp="1602579561100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602568456179" />
+    <state width="1483" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602579561100" />
     <state width="1483" height="291" key="GridCell.Tab.1.bottom" timestamp="1602493203508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1478,12 +1475,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java</url>
-          <line>59</line>
+          <line>60</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisUtils.java</url>
-          <line>283</line>
+          <line>282</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
