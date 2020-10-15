@@ -5,9 +5,11 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Resource;
+import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.constraints.NotBlank;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -95,7 +97,7 @@ public class AuthorizationController {
     @AnonymousPostMapping(value = "/login")
     public ResponseEntity<Object> login(@Validated@RequestBody AuthUserDto authUserDto, HttpServletRequest request) throws Exception {
 
-//        这个摩玛需要解码，在前端页面加密过
+//        这个密码需要解码，在前端页面加密过
         String password = authUserDto.getPassword();
 
 
