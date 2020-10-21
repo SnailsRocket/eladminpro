@@ -162,11 +162,11 @@ class FastJsonRedisSerializer<T> implements RedisSerializer<T> {
         if (t == null) {
             return new byte[0];
         }
-        System.out.println("fastjson 序列化： ");
-        System.out.println(t);
+//        System.out.println("fastjson 序列化： ");
+//        System.out.println(t);
 //        判断 t 的类型
-        System.out.println(t instanceof String);
-        System.out.println(t instanceof Integer);
+//        System.out.println(t instanceof String);
+//        System.out.println(t instanceof Integer);
         String string = JSON.toJSONString(t, SerializerFeature.WriteClassName);
 //       如果不加上这一行往redis里面存value 会带有 '"' value 是以String类型存入redis的
         string = string.replace("\"","");
@@ -181,7 +181,7 @@ class FastJsonRedisSerializer<T> implements RedisSerializer<T> {
      * @throws SerializationException
      */
     @Override
-    public T deserialize(byte[] bytes) throws SerializationException {
+    public T deserialize(byte[] bytes) {
         if (bytes == null || bytes.length <= 0) {
             return null;
         }
