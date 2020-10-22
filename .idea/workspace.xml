@@ -1272,8 +1272,6 @@
       <change afterPath="$PROJECT_DIR$/../../changgou/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../changgounote/changgou" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../easyexcel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/config/RsaProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RsaUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../eladmin-web" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mall" afterDir="false" />
@@ -1281,22 +1279,7 @@
       <change afterPath="$PROJECT_DIR$/../../nacos-examples" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../newbee-mall" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sculptor-boot-generator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-common/src/main/java/com/xubo/utils/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-common/target/classes/com/xubo/utils/FastJsonRedisSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/el-common/target/classes/com/xubo/utils/FastJsonRedisSerializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/el-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/el-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/src/main/java/com/xubo/modules/security/rest/AuthorizationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/classes/com/xubo/modules/security/rest/AuthorizationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/DeptMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/DeptMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/JobMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/JobMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/MenuMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/MenuMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/RoleMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/RoleMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/RoleSmallMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/RoleSmallMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/el-system/target/generated-sources/annotations/com/xubo/modules/system/service/mapstruct/UserMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1441,38 +1424,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1483" height="376" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1603175560888" />
-    <state width="1483" height="398" key="GridCell.Tab.0.bottom" timestamp="1603267130993">
+    <state width="1483" height="398" key="GridCell.Tab.0.bottom" timestamp="1603270774393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="398" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603267130993" />
-    <state width="1483" height="398" key="GridCell.Tab.0.center" timestamp="1603267130993">
+    <state width="1483" height="398" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603270774393" />
+    <state width="1483" height="398" key="GridCell.Tab.0.center" timestamp="1603270774393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="398" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603267130993" />
-    <state width="1483" height="398" key="GridCell.Tab.0.left" timestamp="1603267130993">
+    <state width="1483" height="398" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603270774393" />
+    <state width="1483" height="398" key="GridCell.Tab.0.left" timestamp="1603270774393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="398" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603267130993" />
-    <state width="1483" height="398" key="GridCell.Tab.0.right" timestamp="1603267130993">
+    <state width="1483" height="398" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603270774393" />
+    <state width="1483" height="398" key="GridCell.Tab.0.right" timestamp="1603270774393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="398" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603267130993" />
-    <state width="1483" height="398" key="GridCell.Tab.1.bottom" timestamp="1603267130993">
+    <state width="1483" height="398" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603270774393" />
+    <state width="1483" height="398" key="GridCell.Tab.1.bottom" timestamp="1603270774393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="398" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603267130993" />
-    <state width="1483" height="398" key="GridCell.Tab.1.center" timestamp="1603267130993">
+    <state width="1483" height="398" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603270774393" />
+    <state width="1483" height="398" key="GridCell.Tab.1.center" timestamp="1603270774393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="398" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603267130993" />
-    <state width="1483" height="398" key="GridCell.Tab.1.left" timestamp="1603267130993">
+    <state width="1483" height="398" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603270774393" />
+    <state width="1483" height="398" key="GridCell.Tab.1.left" timestamp="1603270774393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="398" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603267130993" />
-    <state width="1483" height="398" key="GridCell.Tab.1.right" timestamp="1603267130993">
+    <state width="1483" height="398" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603270774393" />
+    <state width="1483" height="398" key="GridCell.Tab.1.right" timestamp="1603270774393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="398" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603267130993" />
+    <state width="1483" height="398" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603270774393" />
     <state x="246" y="84" key="IDE.errors.dialog" timestamp="1603183815926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
